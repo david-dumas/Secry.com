@@ -1,6 +1,44 @@
 <template>
   <div>
-    <NavigationBar />
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1><h1 class="text-9xl">
+      Content
+    </h1><h1 class="text-9xl">
+      Content
+    </h1><h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
+    <h1 class="text-9xl">
+      Content
+    </h1>
   </div>
 </template>
 
