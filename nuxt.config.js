@@ -49,19 +49,16 @@ export default {
 
   // i18n module configuration https://i18n.nuxtjs.org/
   i18n: {
-    locales: ['en', 'nl'],
-    defaultLocale: 'en',
-    vueI18n: {
-      fallbackLocale: 'en',
-      messages: {
-        en: {
-          welcome: 'Welcome'
-        },
-        nl: {
-          welcome: 'Welkom'
-        }
-      }
-    }
+    locales: [{
+      code: 'en',
+      file: 'en-US.js'
+    }, {
+      code: 'nl',
+      file: 'nl-NL.js'
+    }],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
