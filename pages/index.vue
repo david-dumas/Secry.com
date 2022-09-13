@@ -4,7 +4,7 @@
       Content
     </h1>
     <h1 class="text-9xl">
-      Content
+      Contents
     </h1>
     <h1 class="text-9xl">
       Content

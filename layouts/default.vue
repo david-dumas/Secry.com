@@ -3,6 +3,14 @@
     <header>
       <NavigationBar />
     </header>
-    <Nuxt />
+    <div>
+      <Nuxt />
+    </div>
   </main>
 </template>
+
+<script>
+export default {
+  name: 'Default'
+}
+</script>

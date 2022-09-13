@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -16,4 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .hover-primary {
   @apply transition duration-200 hover:text-primary;
+}
+
+#nav {
+  background-color: white;
 }
