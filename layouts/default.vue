@@ -3,7 +3,7 @@
     <header>
       <NavigationBar />
     </header>
-    <div>
+    <div :style="mainSectionStyle">
       <Nuxt />
     </div>
   </main>
@@ -11,6 +11,22 @@
 
 <script>
 export default {
-  name: 'Default'
+  name: 'Default',
+  data () {
+    return {
+      offsetHeight: 96
+    }
+  },
+  computed: {
+    mainSectionStyle () {
+      return {
+        'padding-top': `${this.offsetHeight}px`
+      }
+    }
+  },
+  beforeMount () {
+    const navBar = document.getElementById('nav')
+    this.offsetHeight = navBar.offsetHeight
+  }
 }
 </script>

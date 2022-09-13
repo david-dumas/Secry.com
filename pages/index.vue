@@ -44,6 +44,7 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  scrollToTop: false
 }
 </script>
