@@ -1,13 +1,12 @@
 <template>
-  <div>
+  <div class="flex items-center justify-center">
     <nuxt-link
       v-for="locale in availableLocales"
       :key="locale.code"
+      class="-mt-1"
       :to="switchLocalePath(locale.code)"
     >
-      <div>
-        <country-flag :country="locale.country" />
-      </div>
+      <country-flag :country="locale.country" />
     </nuxt-link>
   </div>
 </template>
