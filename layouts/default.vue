@@ -3,7 +3,7 @@
     <header>
       <NavigationBar />
     </header>
-    <div :style="mainSectionStyle">
+    <div :style="mainSectionStyle" class="px-4 max-w-7xl mx-auto">
       <Nuxt />
     </div>
   </main>

@@ -1,6 +1,6 @@
 <template>
   <nav id="nav" class="fixed left-0 right-0 transition duration-200">
-    <div class="py-8 px-4 lg:px-8 max-w-7xl mx-auto flex justify-between flex-row items-center">
+    <div class="py-8 px-4 max-w-7xl mx-auto flex justify-between flex-row items-center">
       <!--TODO: insert real picture of our logo-->
       <div>
         Logo
