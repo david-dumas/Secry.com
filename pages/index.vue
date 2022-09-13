@@ -1,5 +1,8 @@
 <template>
-  <h1>{{ $t('welcome') }}</h1>
+  <div>
+    <h1>{{ $t('welcome') }}</h1>
+    <NavigationBar />
+  </div>
 </template>
 
 <script>

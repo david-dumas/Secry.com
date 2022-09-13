@@ -58,6 +58,11 @@ export default {
     }],
     lazy: true,
     langDir: 'lang/',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root'
+    },
     defaultLocale: 'en'
   },
 
