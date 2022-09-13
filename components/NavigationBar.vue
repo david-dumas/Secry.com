@@ -6,23 +6,28 @@
         Logo
       </div>
       <div class="flex flex-row items-center gap-12">
-        <div class="flex flex-row gap-6 items-center">
-          <nuxt-link to="#" class="hover-primary">
+        <scrollactive
+          ref="scrollactive"
+          active-class="active"
+          :offset="96"
+          class="flex flex-row gap-6 items-center"
+        >
+          <nuxt-link to="#home" class="hover-primary scrollactive-item">
             {{ $t('navigation.home') }}
           </nuxt-link>
-          <nuxt-link to="#how-it-works" class="hover-primary">
+          <nuxt-link to="#how-it-works" class="hover-primary scrollactive-item">
             {{ $t('navigation.howItWorks') }}
           </nuxt-link>
-          <nuxt-link to="#why-us" class="hover-primary">
+          <nuxt-link to="#why-us" class="hover-primary scrollactive-item">
             {{ $t('navigation.why_us') }}
           </nuxt-link>
-          <nuxt-link to="#rating-and-reviews" class="hover-primary">
+          <nuxt-link to="#rating-and-reviews" class="hover-primary scrollactive-item">
             {{ $t('navigation.ratingsAndReviews') }}
           </nuxt-link>
-          <nuxt-link to="#contact" class="hover-primary">
+          <nuxt-link to="#contact" class="hover-primary scrollactive-item">
             {{ $t('navigation.contact') }}
           </nuxt-link>
-        </div>
+        </scrollactive>
         <div class="flex flex-row justify-center items-center">
           <LanguageSwitch />
         </div>
