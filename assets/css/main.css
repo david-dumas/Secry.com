@@ -32,6 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slidein {
-  @apply fixed top-0 left-0 right-0 h-full transition-all ease-in-out duration-500 z-50 p-16;
+  @apply fixed top-0 h-full z-50 p-16;
   background-color: white;
 }

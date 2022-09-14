@@ -17,8 +17,8 @@
         <SocialMediaIcons class="hidden lg:flex" />
       </div>
     </div>
-    <transition name="slide">
-      <div v-if="showMenu" class="slidein flex flex-col gap-8">
+    <transition name="show">
+      <div v-if="showMenu" :class="`slidein w-full transition-all duration-500 flex flex-col gap-8 ${showMenu ? 'left-0' : '-left-full'}`">
         <div class="flex flex-row justify-between items-center">
           <div>
             Logo
@@ -64,3 +64,15 @@ export default {
   }
 }
 </script>
+
+<style>
+.show-enter-active,
+.show-leave-enter {
+  transform: translateX(0%);
+  transition: all .3s linear;
+}
+.show-enter,
+.show-leave-to {
+  transform: translateX(-100%);
+}
+</style>
