@@ -3,7 +3,7 @@
     <div class="py-8 px-4 max-w-7xl mx-auto flex justify-between flex-row items-center">
       <!--TODO: insert real picture of our logo-->
       <div class="flex lg:hidden">
-        Burger
+        <font-awesome-icon :icon="['fas', 'bars']" class="text-2xl" />
       </div>
       <div>
         Logo
