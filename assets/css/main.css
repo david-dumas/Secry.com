@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+/* classes for navigation */
 .hover-primary {
   @apply transition duration-200 hover:text-primary;
 }
@@ -28,4 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .active {
   @apply text-primary;
+}
+
+.slidein {
+  @apply fixed top-0 left-0 right-0 h-full transition-all ease-in-out duration-500 z-50 p-16;
+  background-color: white;
 }

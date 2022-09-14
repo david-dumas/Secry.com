@@ -3,60 +3,53 @@
     <div class="py-8 px-4 max-w-7xl mx-auto flex justify-between flex-row items-center">
       <!--TODO: insert real picture of our logo-->
       <div class="flex lg:hidden">
-        <font-awesome-icon :icon="['fas', 'bars']" class="text-2xl" />
+        <font-awesome-icon :icon="['fas', 'bars']" class="text-2xl cursor-pointer" @click="toggleNav" />
       </div>
       <div>
         Logo
       </div>
       <div class="flex flex-row items-center gap-12">
-        <scrollactive
-          ref="scrollactive"
-          active-class="active"
-          :click-to-scroll="false"
-          :offset="96"
-          class="hidden lg:flex flex-row gap-6 items-center"
-        >
-          <nuxt-link to="#home" class="hover-primary scrollactive-item">
-            {{ $t('navigation.home') }}
-          </nuxt-link>
-          <nuxt-link to="#how-it-works" class="hover-primary scrollactive-item">
-            {{ $t('navigation.howItWorks') }}
-          </nuxt-link>
-          <nuxt-link to="#why-us" class="hover-primary scrollactive-item">
-            {{ $t('navigation.why_us') }}
-          </nuxt-link>
-          <nuxt-link to="#rating-and-reviews" class="hover-primary scrollactive-item">
-            {{ $t('navigation.ratingsAndReviews') }}
-          </nuxt-link>
-          <nuxt-link to="#contact" class="hover-primary scrollactive-item">
-            {{ $t('navigation.contact') }}
-          </nuxt-link>
-        </scrollactive>
+        <NavItems class="hidden lg:flex" />
         <div class="flex flex-row justify-center items-center">
           <LanguageSwitch />
         </div>
         <!--TODO: link to correct social media pages-->
-        <div class="hidden text-2xl items-center lg:flex flex-row gap-4">
-          <font-awesome-icon :icon="['fab', 'facebook']" class="hover-primary" />
-          <font-awesome-icon :icon="['fab', 'instagram']" class="hover-primary" />
-          <font-awesome-icon :icon="['fab', 'youtube']" class="hover-primary" />
-        </div>
+        <SocialMediaIcons class="hidden lg:flex" />
       </div>
     </div>
+    <transition name="slide">
+      <div v-if="showMenu" class="slidein flex flex-col gap-8">
+        <div class="flex flex-row justify-between items-center">
+          <div>
+            Logo
+          </div>
+          <font-awesome-icon :icon="['fas', 'x']" class="cursor-pointer text-2xl" @click="toggleNav" />
+        </div>
+        <div @click="toggleNav">
+          <NavItems />
+        </div>
+        <SocialMediaIcons />
+      </div>
+    </transition>
   </nav>
 </template>
 
 <script>
 export default {
   name: 'NavigationBar',
+  data () {
+    return {
+      showMenu: false
+    }
+  },
   beforeMount () {
     window.addEventListener('scroll', this.handleScroll)
   },
   beforeDestroy () {
     window.removeEventListener('scroll', this.handleScroll)
   },
-  // scroll handling
   methods: {
+    // scroll handling
     handleScroll () {
       const navBar = document.getElementById('nav')
       if (window.scrollY > 60) {
@@ -64,6 +57,9 @@ export default {
       } else {
         navBar.classList.remove('shadow-sm')
       }
+    },
+    toggleNav () {
+      this.showMenu = !this.showMenu
     }
   }
 }
