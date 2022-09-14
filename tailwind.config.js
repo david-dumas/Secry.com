@@ -10,7 +10,7 @@ module.exports = {
     theme: {
       extend: {},
       colors: {
-        brightRed: 'hsl(12, 88%, 59%)',
+        primary: '#0584FE',
         lightBlue: '#0584FE'
       }
     },
