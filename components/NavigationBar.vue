@@ -9,6 +9,7 @@
         <scrollactive
           ref="scrollactive"
           active-class="active"
+          :click-to-scroll="false"
           :offset="96"
           class="flex flex-row gap-6 items-center"
         >
