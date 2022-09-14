@@ -2,6 +2,9 @@
   <nav id="nav" class="fixed left-0 right-0 transition duration-200">
     <div class="py-8 px-4 max-w-7xl mx-auto flex justify-between flex-row items-center">
       <!--TODO: insert real picture of our logo-->
+      <div class="flex lg:hidden">
+        Burger
+      </div>
       <div>
         Logo
       </div>
@@ -11,7 +14,7 @@
           active-class="active"
           :click-to-scroll="false"
           :offset="96"
-          class="flex flex-row gap-6 items-center"
+          class="hidden lg:flex flex-row gap-6 items-center"
         >
           <nuxt-link to="#home" class="hover-primary scrollactive-item">
             {{ $t('navigation.home') }}
@@ -33,7 +36,7 @@
           <LanguageSwitch />
         </div>
         <!--TODO: link to correct social media pages-->
-        <div class="text-2xl items-center flex flex-row gap-4">
+        <div class="hidden text-2xl items-center lg:flex flex-row gap-4">
           <font-awesome-icon :icon="['fab', 'facebook']" class="hover-primary" />
           <font-awesome-icon :icon="['fab', 'instagram']" class="hover-primary" />
           <font-awesome-icon :icon="['fab', 'youtube']" class="hover-primary" />
