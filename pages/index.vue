@@ -1,9 +1,14 @@
 <template>
-  <Tutorial />
+  <Footer />
 </template>
 
 <script>
+
+import Footer from '../components/Footer.vue'
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: Footer
 }
+
 </script>
