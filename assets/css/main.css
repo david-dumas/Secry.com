@@ -13,11 +13,21 @@ body {
   font-weight: 300;
 }
 
+/* general font setup */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
+h1 {
+  @apply text-5xl;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-primary;
+}
 /* classes for navigation */
 .hover-primary {
   @apply transition duration-200 hover:text-primary;

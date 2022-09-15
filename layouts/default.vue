@@ -10,6 +10,11 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import global from '~/mixins/global'
+
+Vue.mixin(global)
+
 export default {
   name: 'Default',
   data () {

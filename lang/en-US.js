@@ -6,5 +6,9 @@ export default {
     why_us: 'Why us',
     ratingsAndReviews: 'Ratings & reviews',
     contact: 'Contact'
+  },
+  topSection: {
+    title: 'The best anonymous social media app.',
+    description: 'Discover what people around you think.'
   }
 }
