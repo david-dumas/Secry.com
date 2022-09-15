@@ -1,140 +1,74 @@
 <template>
-  <div class="bg-white py-12">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="lg:text-left">
-        <p
-          class="
-            mt-2
-            text-3xl
-            font-bold
-            leading-8
-            tracking-tight
-            text-gray-900
-            sm:text-4xl
-          "
-        >
-        Anonymous with avatars
-        </p>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500">
-            Behind every user is a randomly generated avatar. This could be your friend or classmate. Avatars will regularly be regenerated and differ for each user. This keeps your anonimity as safe as possible.
+  <section class="pt-0">
+    <div class="flex flex-col gap-8">
+      <div class="lg:text-left flex flex-col gap-4">
+        <h2 class="text-primary">
+          Anonymous with avatars
+        </h2>
+        <p class="max-w-2xl">
+          Behind every user is a randomly generated avatar. This could be your friend or classmate. Avatars will regularly be regenerated and differ for each user. This keeps your anonimity as safe as possible.
         </p>
       </div>
 
-      <div class="mt-10">
-        <dl
-          class="
-            space-y-10
-            md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0
-          "
-        >
-          <div class="relative">
-            <dt>
-              <div
-                class="
-                  absolute
-                  flex
-                  h-12
-                  w-12
-                  items-center
-                  justify-center
-                  rounded-md
-                  bg-indigo-500
-                  text-white
-                "
-              >
-              <nuxt-img src="/images/en/Multiavatar-Ethereum1.png" />
-              </div>
-              <p class="ml-16 text-lg font-medium leading-6 text-gray-900">
-                12th grade high school class with 30 kids
-              </p>
-            </dt>
-            <dd class="mt-2 ml-16 text-base text-primary italic">
-                “Who thinks a belly button piercing is beautiful?”
-            </dd>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="flex flex-col gap-4">
+          <div class="w-12 h-12">
+            <nuxt-img src="/images/en/Multiavatar-Ethereum1.png" />
           </div>
+          <div class="gap-2">
+            <p class="text-lg font-medium">
+              7th grade high school class
+            </p>
+            <p class="text-primary italic">
+              “Who likes Justin Bieber as well?”
+            </p>
+          </div>
+        </div>
 
-          <div class="relative">
-            <dt>
-              <div
-                class="
-                  absolute
-                  flex
-                  h-12
-                  w-12
-                  items-center
-                  justify-center
-                  rounded-md
-                  bg-indigo-500
-                  text-white
-                "
-              >
-              <nuxt-img src="/images/en/Multiavatar-Huxley1.png" />
-              </div>
-              <p class="ml-16 text-lg font-medium leading-6 text-gray-900">
-                7th grade high school class
-              </p>
-            </dt>
-            <dd class="mt-2 ml-16 text-base text-primary italic">
-                “Who likes Justin Bieber as well?”
-            </dd>
+        <div class="flex flex-col gap-4">
+          <div class="w-12 h-12">
+            <nuxt-img src="/images/en/Multiavatar-Huxley1.png" />
           </div>
+          <div class="gap-2">
+            <p class="text-lg font-medium">
+              7th grade high school class
+            </p>
+            <p class="text-primary italic">
+              “Who likes Justin Bieber as well?”
+            </p>
+          </div>
+        </div>
 
-          <div class="relative">
-            <dt>
-              <div
-                class="
-                  absolute
-                  flex
-                  h-12
-                  w-12
-                  items-center
-                  justify-center
-                  rounded-md
-                  bg-indigo-500
-                  text-white
-                "
-              >
-                <!-- Heroicon name: outline/bolt -->
-                <nuxt-img src="/images/en/Multiavatar-Shichiroji-Karatoza1.png" />
-              </div>
-              <p class="ml-16 text-lg font-medium leading-6 text-gray-900">
-                Large student house
-              </p>
-            </dt>
-            <dd class="mt-2 ml-16 text-base text-primary italic">
-                “Who thinks the kitchen is way too messy?”
-            </dd>
+        <div class="flex flex-col gap-4">
+          <div class="w-12 h-12">
+            <nuxt-img src="/images/en/Multiavatar-Shichiroji-Karatoza1.png" />
           </div>
+          <div class="gap-2">
+            <p class="text-lg font-medium">
+              Large student house
+            </p>
+            <p class="text-primary italic">
+              “Who thinks the kitchen is way too messy?”
+            </p>
+          </div>
+        </div>
 
-          <div class="relative">
-            <dt>
-              <div
-                class="
-                  absolute
-                  flex
-                  h-12
-                  w-12
-                  items-center
-                  justify-center
-                  rounded-md
-                  bg-indigo-500
-                  text-white
-                "
-              >
-                <nuxt-img src="/images/en/Multiavatar-Ebenezer-Dimmsdale1.png" />
-              </div>
-              <p class="ml-16 text-lg font-medium leading-6 text-gray-900">
-                Middle size company
-              </p>
-            </dt>
-            <dd class="mt-2 ml-16 text-base text-primary italic">
-                “Who thinks we spend too much time on daily stand-ups?”
-            </dd>
+        <div class="flex flex-col gap-4">
+          <div class="w-12 h-12">
+            <nuxt-img src="/images/en/avatar-purple.png" />
           </div>
-        </dl>
+          <div class="gap-2">
+            <p class="text-lg font-medium">
+              Middle size company
+            </p>
+            <p class="text-primary italic">
+              “Who thinks we spend too much time on daily stand-ups?”
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
