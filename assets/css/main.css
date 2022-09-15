@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans:wght@200;300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -20,14 +20,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @apply text-5xl;
+  @apply text-5xl text-primary;
   font-weight: 700;
   line-height: 4rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  @apply text-primary;
+h2 {
+  @apply text-3xl;
+  font-weight: 700;
 }
+
+p {
+  line-height: 2rem;
+}
+
+/* section styling */
+section {
+  @apply py-32;
+}
+
 /* classes for navigation */
 .hover-primary {
   @apply transition duration-200 hover:text-primary;
