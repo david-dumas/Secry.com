@@ -42,5 +42,12 @@ export default {
       title: 'Middelgroot bedrijf',
       description: '“Wie vindt dat we te veel tijd besteden aan dagelijkse stand-ups?”'
     }
+  },
+  footer: {
+    title: 'De beste anonieme sociale media applicatie',
+    description: 'Copyright © 2022 Secry - Alle rechten behoren tot ons',
+    terms: 'Algemene Voorwaarden',
+    privacy: 'Privacy',
+    cookies: 'Cookies'
   }
 }

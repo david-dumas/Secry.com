@@ -42,5 +42,12 @@ export default {
       title: 'Middle size company',
       description: '“Who thinks we spend too much time on daily stand-ups?”'
     }
+  },
+  footer: {
+    title: 'The best anonymous social media app',
+    description: 'Copyright © 2022 Secry - All Rights Reserved',
+    terms: 'Terms and Conditions',
+    privacy: 'Privacy',
+    cookies: 'Cookies'
   }
 }

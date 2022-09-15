@@ -13,17 +13,17 @@
         "
       >
         <h1 class="text-xl text-primary">
-          The best anonymous social media app
+          {{ $t('footer.title') }}
         </h1>
         <div class="text-black md:block">
-          Copyright &copy; 2022 Secry - All Rights Reserved
+          {{ $t('footer.description') }}
         </div>
         <div class="flex flex-row items-center gap-1 text-black">
-          <a href="#" class="text-primary">Terms and Conditions</a>
+          <a href="#" class="text-primary">{{ $t('footer.terms') }}</a>
           <p>|</p>
-          <a href="#" class="text-primary">Privacy</a>
+          <a href="#" class="text-primary">{{ $t('footer.privacy') }}</a>
           <p>|</p>
-          <a href="#" class="text-primary">Cookies    </a>
+          <a href="#" class="text-primary">{{ $t('footer.cookies') }}</a>
         </div>
       </div>
     </footer>
