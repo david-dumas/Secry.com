@@ -43,7 +43,8 @@ export default {
     // tailwindcss postcss
     '@nuxt/postcss8',
     // nuxtjs icons
-    '@nuxtjs/fontawesome'
+    '@nuxtjs/fontawesome',
+    '@nuxt/image'
   ],
 
   // Fontawesome configuration
