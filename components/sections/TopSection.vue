@@ -10,7 +10,7 @@
     </div>
     <div class="lg:px-16 col-span-1 lg:col-span-2 flex items-center justify-center">
       <nuxt-img
-        src="/images/groupchat.png"
+        :src="`/images/${getLocale}/groupchat.png`"
       />
     </div>
   </section>
