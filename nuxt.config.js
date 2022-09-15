@@ -67,7 +67,7 @@ export default {
     '@nuxtjs/i18n'
   ],
 
-  // i18n module configuration https://i18n.nuxtjs.org/
+  // i18n module configuration https://i18n.nuxtjs.org/`
   i18n: {
     locales: [{
       code: 'en',

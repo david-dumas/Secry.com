@@ -19,6 +19,6 @@
 
 <script>
 export default {
-  name: 'WhySecry'
+  name: 'HowItWorks'
 }
 </script>

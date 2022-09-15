@@ -1,17 +1,17 @@
 <template>
   <div>
     <TopSection />
-    <WhySecry />
+    <HowItWorks />
   </div>
 </template>
 
 <script>
 import TopSection from '~/components/sections/TopSection'
-import WhySecry from '~/components/sections/WhySecry'
+import HowItWorks from '~/components/sections/HowItWorks'
 
 export default {
   name: 'IndexPage',
-  components: { WhySecry, TopSection },
+  components: { HowItWorks, TopSection },
   scrollToTop: false
 }
 </script>
