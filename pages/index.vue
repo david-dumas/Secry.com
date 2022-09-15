@@ -11,7 +11,7 @@
 import TopSection from '~/components/sections/TopSection'
 import HowItWorks from '~/components/sections/HowItWorks'
 import WhySecry from '~/components/sections/WhySecry'
-import AnonymousWithAvatars from '~/components/AnonymousWithAvatarts'
+import AnonymousWithAvatars from '~/components/sections/AnonymousWithAvatarts'
 
 export default {
   name: 'IndexPage',

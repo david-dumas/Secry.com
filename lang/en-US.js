@@ -22,5 +22,25 @@ export default {
     heartTwo: 'Zero shame, zero judgement. Because Secry is anonymous, people can say what they really think.',
     heartThree: 'Unlike the ‘perfect’ social media world, where images are edited, only the best image is chosen and where everyone seems to live a ‘perfect’ life. Secry is about the real world, where people get to know the real person behind the edited images and so-called ‘perfect’ lifes.',
     heartFour: 'Awareness, understanding and deeper connections.'
+  },
+  anonymousWithAvatars: {
+    title: 'Anonymous with avatars',
+    description: 'Behind every user is a randomly generated avatar. This could be your friend or classmate. Avatars will regularly be regenerated and differ for each user. This keeps your anonimity as safe as possible.',
+    avatarOne: {
+      title: '10th grade high school class with 30 kids',
+      description: '“Who thinks a belly button piercing is beautiful?”'
+    },
+    avatarTwo: {
+      title: '7th grade high school class',
+      description: '“Who likes Justin Bieber as well?”'
+    },
+    avatarThree: {
+      title: 'Large student house',
+      description: '“Who thinks the kitchen is way too messy?”'
+    },
+    avatarFour: {
+      title: 'Middle size company',
+      description: '“Who thinks we spend too much time on daily stand-ups?”'
+    }
   }
 }

@@ -3,10 +3,10 @@
     <div class="flex flex-col gap-8">
       <div class="lg:text-left flex flex-col gap-4">
         <h2 class="text-primary">
-          Anonymous with avatars
+          {{ $t('anonymousWithAvatars.title') }}
         </h2>
         <p class="max-w-2xl">
-          Behind every user is a randomly generated avatar. This could be your friend or classmate. Avatars will regularly be regenerated and differ for each user. This keeps your anonimity as safe as possible.
+          {{ $t('anonymousWithAvatars.description') }}
         </p>
       </div>
 
@@ -17,10 +17,10 @@
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">
-              7th grade high school class
+              {{ $t('anonymousWithAvatars.avatarOne.title') }}
             </p>
             <p class="text-primary italic">
-              “Who likes Justin Bieber as well?”
+              {{ $t('anonymousWithAvatars.avatarOne.description') }}
             </p>
           </div>
         </div>
@@ -31,10 +31,10 @@
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">
-              7th grade high school class
+              {{ $t('anonymousWithAvatars.avatarTwo.title') }}
             </p>
             <p class="text-primary italic">
-              “Who likes Justin Bieber as well?”
+              {{ $t('anonymousWithAvatars.avatarTwo.description') }}
             </p>
           </div>
         </div>
@@ -45,10 +45,10 @@
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">
-              Large student house
+              {{ $t('anonymousWithAvatars.avatarThree.title') }}
             </p>
             <p class="text-primary italic">
-              “Who thinks the kitchen is way too messy?”
+              {{ $t('anonymousWithAvatars.avatarThree.description') }}
             </p>
           </div>
         </div>
@@ -59,10 +59,10 @@
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">
-              Middle size company
+              {{ $t('anonymousWithAvatars.avatarFour.title') }}
             </p>
             <p class="text-primary italic">
-              “Who thinks we spend too much time on daily stand-ups?”
+              {{ $t('anonymousWithAvatars.avatarFour.description') }}
             </p>
           </div>
         </div>
