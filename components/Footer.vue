@@ -1,13 +1,7 @@
 <template>
-  <!--
-        Wat is nodig?
-        Tekst -> The best anonymous social media app
-        copyright statement met current year
-        3 linkjes naar algemene voorwaarden, privacy statement en cookies stmnt
-    -->
   <div>
-    <footer class="bg-white flex flex-col">
-      <!-- Flex Container -->
+    <div class="flex-grow border-t border-gray-400"></div>
+    <footer class="bg-white flex flex-col space-y-3 text-center">
       <div
         class="
           flex flex-col
@@ -16,15 +10,14 @@
           mx-auto
         "
       >
-        <h1 class="text-2xl text-lightBlue">The best anonymous social media app</h1>
+        <h1 class="text-xl text-primary">The best anonymous social media app</h1>
         <div class="hidden text-black md:block">
           Copyright &copy; 2022 Secry - All Rights Reserved
         </div>
-        <!-- List Container -->
-          <div class="flex flex-row justify-spacespace-y-3 text-black">
-            <a href="#" class="text-lightBlue">Terms and Conditions  |  </a>
-            <a href="#" class="text-lightBlue">Privacy Statement   |  </a>
-            <a href="#" class="text-lightBlue">Cookies Statement    </a>
+          <div class="flex flex-row text-black">
+            <a href="#" class="text-primary">Terms and Conditions  |  </a>
+            <a href="#" class="text-primary">Privacy   |  </a>
+            <a href="#" class="text-primary">Cookies    </a>
           </div>
       </div>
     </footer>
