@@ -6,6 +6,7 @@
     <div :style="mainSectionStyle" class="px-4 max-w-7xl mx-auto">
       <Nuxt />
     </div>
+    <RatingsAndReviews />
     <AnonymousWithAvatarts />
     <Footer />
   </main>
@@ -16,7 +17,8 @@ import Vue from 'vue'
 import global from '~/mixins/global'
 
 Vue.mixin(global)
-import AnonymousWithAvatarts from '~/components/AnonymousWithAvatarts.vue'
+import AnonymousWithAvatarts from '~/components/sections/AnonymousWithAvatarts.vue'
+import RatingsAndReviews from '~/components/sections/RatingsAndReviews.vue'
 
 export default {
   name: 'Default',
@@ -36,6 +38,6 @@ export default {
     const navBar = document.getElementById('nav')
     this.offsetHeight = navBar.offsetHeight
   },
-  components: { AnonymousWithAvatarts }
+  components: { AnonymousWithAvatarts, RatingsAndReviews }
 }
 </script>
