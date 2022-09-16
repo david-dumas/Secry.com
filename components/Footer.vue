@@ -1,27 +1,30 @@
 <template>
-  <div>
-    <div class="flex-grow border-t border-gray-400"></div>
-    <footer class="bg-white flex flex-col space-y-3 text-center">
-      <div
-        class="
+  <footer class="flex flex-col gap-3 text-center py-16 border-t mx-4">
+    <div
+      class="
           flex flex-col
           text-center
-          justify-between
+          justify-center
+          items-center
           mx-auto
+          gap-2
         "
-      >
-        <h1 class="text-xl text-primary">The best anonymous social media app</h1>
-        <div class="hidden text-black md:block">
-          Copyright &copy; 2022 Secry - All Rights Reserved
-        </div>
-          <div class="flex flex-row text-black">
-            <a href="#" class="text-primary">Terms and Conditions  |  </a>
-            <a href="#" class="text-primary">Privacy   |  </a>
-            <a href="#" class="text-primary">Cookies    </a>
-          </div>
+    >
+      <h1 class="text-xl text-primary">
+        {{ $t('footer.title') }}
+      </h1>
+      <div class="text-black md:block">
+        {{ $t('footer.description') }}
       </div>
-    </footer>
-  </div>
+      <div class="flex flex-row items-center gap-1 text-black">
+        <a href="#" class="text-primary">{{ $t('footer.terms') }}</a>
+        <p>|</p>
+        <a href="#" class="text-primary">{{ $t('footer.privacy') }}</a>
+        <p>|</p>
+        <a href="#" class="text-primary">{{ $t('footer.cookies') }}</a>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>

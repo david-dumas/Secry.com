@@ -22,5 +22,37 @@ export default {
     heartTwo: 'Geen schaamte, geen oordeel. Omdat Secry anoniem is, kunnen mensen zeggen wat ze echt denken.',
     heartThree: 'In tegenstelling tot de \'perfecte\' social media wereld, waar beelden worden bewerkt, alleen het beste beeld wordt gekozen en waar iedereen een \'perfect\' leven lijkt te leiden. Secry gaat over de echte wereld, waar mensen de echte persoon achter de bewerkte beelden en zogenaamde \'perfecte\' levens leren kennen.',
     heartFour: 'Bewustwording, begrip en diepere verbindingen.'
+  },
+  anonymousWithAvatars: {
+    title: 'Anoniem door avatars',
+    description: 'Achter elke gebruiker staat een willekeurig gegenereerde avatar. Dit kan een vriend of klasgenoot zijn. Avatars worden regelmatig geregenereerd en verschillen per gebruiker. Dit houdt je anonimiteit zo veilig mogelijk.',
+    avatarOne: {
+      title: '10e middelbare school klas met 30 kinderen',
+      description: '“Wie vindt een navelpiercing mooi?”'
+    },
+    avatarTwo: {
+      title: '7e middelbare school klas',
+      description: '“Wie vind Justin Bieber ook leuk?”'
+    },
+    avatarThree: {
+      title: 'Groot studentenhuis',
+      description: '“Wie vind de keuken ook smerig?”'
+    },
+    avatarFour: {
+      title: 'Middelgroot bedrijf',
+      description: '“Wie vindt dat we te veel tijd besteden aan dagelijkse stand-ups?”'
+    }
+  },
+  contact: {
+    title: 'Vraag het ons',
+    location: 'Utrecht, Nederland',
+    secryOnSocialMedia: 'Secry op social media'
+  },
+  footer: {
+    title: 'De beste anonieme sociale media applicatie',
+    description: 'Copyright © 2022 Secry - Alle rechten voorbehouden',
+    terms: 'Algemene Voorwaarden',
+    privacy: 'Privacy',
+    cookies: 'Cookies'
   }
 }
