@@ -43,6 +43,11 @@ export default {
       description: '“Who thinks we spend too much time on daily stand-ups?”'
     }
   },
+  contact: {
+    title: 'Ask us anything',
+    location: 'Utrecht, Netherlands',
+    secryOnSocialMedia: 'Secry on social media'
+  },
   footer: {
     title: 'The best anonymous social media app',
     description: 'Copyright © 2022 Secry - All Rights Reserved',

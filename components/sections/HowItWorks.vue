@@ -5,7 +5,7 @@
         :src="`/images/${getLocale}/addgroup.png`"
       />
     </div>
-    <div class="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col gap-4 order-1 md:order-2">
+    <div class="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col gap-4 order-1 md:order-2 text-center md:text-left">
       <h2 class="text-primary md:text-black">
         {{ $t('whySecry.title') }}
       </h2>

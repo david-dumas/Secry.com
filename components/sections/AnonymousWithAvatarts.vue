@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-0">
+  <section class="pt-0 text-center md:text-left">
     <div class="flex flex-col gap-8">
       <div class="lg:text-left flex flex-col gap-4">
         <h2 class="text-primary">
@@ -11,7 +11,7 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
             <nuxt-img src="/images/en/Multiavatar-Ethereum1.png" />
           </div>
@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
             <nuxt-img src="/images/en/Multiavatar-Huxley1.png" />
           </div>
@@ -39,7 +39,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
             <nuxt-img src="/images/en/Multiavatar-Shichiroji-Karatoza1.png" />
           </div>
@@ -53,7 +53,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
             <nuxt-img src="/images/en/avatar-purple.png" />
           </div>

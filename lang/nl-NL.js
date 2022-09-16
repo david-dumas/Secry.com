@@ -43,9 +43,14 @@ export default {
       description: '“Wie vindt dat we te veel tijd besteden aan dagelijkse stand-ups?”'
     }
   },
+  contact: {
+    title: 'Vraag het ons',
+    location: 'Utrecht, Nederland',
+    secryOnSocialMedia: 'Secry op social media'
+  },
   footer: {
     title: 'De beste anonieme sociale media applicatie',
-    description: 'Copyright © 2022 Secry - Alle rechten behoren tot ons',
+    description: 'Copyright © 2022 Secry - Alle rechten voorbehouden',
     terms: 'Algemene Voorwaarden',
     privacy: 'Privacy',
     cookies: 'Cookies'
