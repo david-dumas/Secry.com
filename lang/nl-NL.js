@@ -32,11 +32,11 @@ export default {
     },
     avatarTwo: {
       title: '1e klas middelbare school klas',
-      description: '“Wie vind Justin Bieber ook leuk?”'
+      description: '“Wie vindt Justin Bieber ook leuk?”'
     },
     avatarThree: {
       title: 'Groot studentenhuis',
-      description: '“Wie vind de keuken een grote bende?”'
+      description: '“Wie vindt de keuken een grote bende?”'
     },
     avatarFour: {
       title: 'Middelgroot bedrijf',
