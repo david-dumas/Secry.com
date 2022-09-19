@@ -15,7 +15,7 @@
         >
         Anonymous with avatars
         </p>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500">
+        <p class="mt-4 text-xl text-gray-500">
             Behind every user is a randomly generated avatar. This could be your friend or classmate. Avatars will regularly be regenerated and differ for each user. This keeps your anonimity as safe as possible.
         </p>
       </div>
