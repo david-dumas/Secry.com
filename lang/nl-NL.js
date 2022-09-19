@@ -55,7 +55,8 @@ export default {
   },
   footer: {
     title: 'De beste anonieme sociale media applicatie',
-    description: 'Copyright © 2022 Secry - Alle rechten voorbehouden',
+    descriptionPart1: 'Copyright ©',
+    descriptionPart2: ' Secry - Alle rechten voorbehouden',
     terms: 'Algemene Voorwaarden',
     privacy: 'Privacy',
     cookies: 'Cookies'

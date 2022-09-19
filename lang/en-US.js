@@ -55,7 +55,8 @@ export default {
   },
   footer: {
     title: 'The best anonymous social media app',
-    description: 'Copyright © 2022 Secry - All Rights Reserved',
+    descriptionPart1: 'Copyright ©',
+    descriptionPart2: ' Secry - All Rights Reserved',
     terms: 'Terms and Conditions',
     privacy: 'Privacy',
     cookies: 'Cookies'
