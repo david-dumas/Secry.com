@@ -43,6 +43,11 @@ export default {
       description: '“Who thinks we spend too much time on daily stand-ups?”'
     }
   },
+  ratingsAndReviews: {
+    ratingOne: 'This seems like a fantastic way to be more aware of each other\'s concerns and thus create more connection. I definitely see this as a platform with a lot of potential.',
+    ratingTwo: 'The most criticism that social media is getting now is that it is "fake" and that many users become insecure when seeing/reading certain posts. Secry, on the other hand, will really be the opposite; the idea is precisely to be very "real".',
+    ratingThree: 'The most criticism that social media is getting now is that it is "fake" and that many users become insecure when seeing/reading certain posts. Secry, on the other hand, will really be the opposite; the idea is precisely to be very "real".'
+  },
   contact: {
     title: 'Ask us anything',
     location: 'Utrecht, Netherlands',

@@ -4,6 +4,7 @@
     <HowItWorks />
     <AnonymousWithAvatars />
     <WhySecry />
+    <RatingsAndReviews />
     <ContactSecry />
   </div>
 </template>
@@ -14,10 +15,11 @@ import HowItWorks from '~/components/sections/HowItWorks'
 import WhySecry from '~/components/sections/WhySecry'
 import AnonymousWithAvatars from '~/components/sections/AnonymousWithAvatarts'
 import ContactSecry from '~/components/sections/ContactSecry'
+import RatingsAndReviews from '~/components/sections/RatingsAndReviews'
 
 export default {
   name: 'IndexPage',
-  components: { ContactSecry, AnonymousWithAvatars, WhySecry, HowItWorks, TopSection },
+  components: { RatingsAndReviews, ContactSecry, AnonymousWithAvatars, WhySecry, HowItWorks, TopSection },
   scrollToTop: false
 }
 </script>

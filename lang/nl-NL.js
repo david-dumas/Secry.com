@@ -43,6 +43,11 @@ export default {
       description: '“Wie vindt dat we te veel tijd besteden aan dagelijkse stand-ups?”'
     }
   },
+  ratingsAndReviews: {
+    ratingOne: 'Secry lijkt een fantastische manier om bewuster te worden van elkaars zorgen en zo meer verbinding te creëren. Ik zie dit als een platform met veel potentie.',
+    ratingTwo: 'De meeste kritiek die sociale media nu krijgen, is dat het "nep" is en dat veel gebruikers onzeker worden bij het zien/lezen van bepaalde berichten. Secry daarentegen zal echt het tegenovergestelde zijn; het idee is juist om heel "echt" te zijn.',
+    ratingThree: 'Het eerste wat in me opkwam was: Ja! Dat is een supergoed idee. Juist de anonimiteit zorgt vaak voor problemen, omdat het maar één kant op gaat. Hier gaat het twee kanten op.\''
+  },
   contact: {
     title: 'Vraag het ons',
     location: 'Utrecht, Nederland',
