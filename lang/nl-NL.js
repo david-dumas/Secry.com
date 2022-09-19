@@ -24,19 +24,19 @@ export default {
     heartFour: 'Bewustwording, begrip en diepere verbindingen.'
   },
   anonymousWithAvatars: {
-    title: 'Anoniem door avatars',
-    description: 'Achter elke gebruiker staat een willekeurig gegenereerde avatar. Dit kan een vriend of klasgenoot zijn. Avatars worden regelmatig geregenereerd en verschillen per gebruiker. Dit houdt je anonimiteit zo veilig mogelijk.',
+    title: 'Anoniem met avatars',
+    description: 'Achter elke gebruiker staat een willekeurig gegenereerde avatar. Dit kan een vriend of klasgenoot zijn. Avatars worden regelmatig geregenereerd en verschillen per gebruiker. Zo blijft uw anonimiteit zo veilig mogelijk.',
     avatarOne: {
-      title: '10e middelbare school klas met 30 kinderen',
-      description: '“Wie vindt een navelpiercing mooi?”'
+      title: '4e klas middelbare school klas met 30 kinderen',
+      description: '“Wie vind een navelpiercing mooi?”'
     },
     avatarTwo: {
-      title: '7e middelbare school klas',
+      title: '1e klas middelbare school klas',
       description: '“Wie vind Justin Bieber ook leuk?”'
     },
     avatarThree: {
       title: 'Groot studentenhuis',
-      description: '“Wie vind de keuken ook smerig?”'
+      description: '“Wie vind de keuken een grote bende?”'
     },
     avatarFour: {
       title: 'Middelgroot bedrijf',
