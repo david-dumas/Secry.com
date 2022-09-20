@@ -2,7 +2,6 @@
   <scrollactive
     ref="scrollactive"
     active-class="active"
-    :click-to-scroll="false"
     :offset="96"
     class="flex flex-col lg:flex-row gap-3 lg:gap-6 lg:items-center"
   >
