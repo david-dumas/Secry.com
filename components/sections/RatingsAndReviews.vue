@@ -12,7 +12,9 @@
             <div class="flex h-12 w-12 rounded-md bg-indigo-500 text-white">
               <nuxt-img src="/images/en/Aron.png" />
             </div>
-            <p class="text-2xl">Aron</p>
+            <p class="text-2xl">
+              Aron
+            </p>
             <p class="text-center">
               {{ $t('ratingsAndReviews.ratingOne') }}
             </p>
@@ -21,7 +23,9 @@
             <div class="flex h-12 w-12 rounded-md bg-indigo-500 text-white">
               <nuxt-img src="/images/en/Emma.png" />
             </div>
-            <p class="text-2xl">Emma</p>
+            <p class="text-2xl">
+              Emma
+            </p>
             <p class="text-center">
               {{ $t('ratingsAndReviews.ratingTwo') }}
             </p>
@@ -30,7 +34,9 @@
             <div class="flex h-12 w-12 rounded-md bg-indigo-500 text-white">
               <nuxt-img src="/images/en/Carlos.png" />
             </div>
-            <p class="text-2xl">Carlos</p>
+            <p class="text-2xl">
+              Carlos
+            </p>
             <p class="text-center">
               {{ $t('ratingsAndReviews.ratingThree') }}
             </p>
