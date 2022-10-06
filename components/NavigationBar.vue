@@ -5,9 +5,12 @@
       <div class="flex lg:hidden">
         <font-awesome-icon :icon="['fas', 'bars']" class="text-2xl cursor-pointer" @click="toggleNav" />
       </div>
-      <div>
+      <button class="w-10" @click="navigateToTop">
+        <img src="/images/en/logo.png">
+      </button>
+      <!-- <div>
         <nuxt-img src="/images/en/logo.png" height="35" />
-      </div>
+      </div> -->
       <div class="flex flex-row items-center gap-12">
         <NavItems class="hidden lg:flex" />
         <div class="flex flex-row justify-center items-center">
@@ -60,6 +63,9 @@ export default {
     },
     toggleNav () {
       this.showMenu = !this.showMenu
+    },
+    navigateToTop () {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
     }
   }
 }

@@ -4,8 +4,12 @@
       <h1>{{ $t('topSection.title') }}</h1>
       <p>{{ $t('topSection.description') }}</p>
       <div class="flex flex-row w-1/3 md:w-full gap-8">
-        <nuxt-img src="/images/appstore.png" />
-        <nuxt-img src="/images/googleplay.png" />
+        <button @click="navigateToAppStore">
+          <img src="/images/appstore.png">
+        </button>
+        <button @click="navigateToAppStore">
+          <img src="/images/googleplay.png">
+        </button>
       </div>
     </div>
     <div class="lg:px-16 col-span-1 lg:col-span-2 flex items-center justify-center">
@@ -18,6 +22,20 @@
 
 <script>
 export default {
-  name: 'TopSection'
+  name: 'TopSection',
+  methods: {
+    navigateToAppStore () {
+      //  TODO, navigate to appstore
+    },
+    navigateToPlayStore () {
+      //  TODO, navigate to playstore
+    }
+  },
+  nuxtI18n: {
+    paths: {
+      en: '/home',
+      nl: '/start'
+    }
+  }
 }
 </script>

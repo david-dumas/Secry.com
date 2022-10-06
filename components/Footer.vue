@@ -14,7 +14,7 @@
         {{ $t('footer.title') }}
       </h1>
       <div class="text-black md:block">
-        {{$t('footer.descriptionPart1')}}{{new Date().getFullYear()}}{{$t('footer.descriptionPart2')}}
+        {{ $t('footer.descriptionPart1') }}{{ new Date().getFullYear() }}{{ $t('footer.descriptionPart2') }}
       </div>
       <div class="flex flex-row items-center gap-1 text-black">
         <a href="#" class="text-primary">{{ $t('footer.terms') }}</a>
