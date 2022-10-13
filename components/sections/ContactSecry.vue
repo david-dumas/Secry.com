@@ -25,9 +25,13 @@
       <p class="text-primary font-bold hidden md:flex">
         Secry @ 2022
       </p>
-      <div class="flex flex-col md:flex-row items-center justify-center w-1/4 gap-8">
-        <nuxt-img src="/images/appstore.png" />
-        <nuxt-img src="/images/googleplay.png" />
+      <div class="flex flex-col md:flex-row items-center justify-center w-1/2 gap-8">
+        <button>
+          <img :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
+        </button>
+        <button>
+          <img :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
+        </button>
       </div>
     </div>
   </section>
@@ -35,6 +39,16 @@
 
 <script>
 export default {
-  name: 'ContactSecry'
+  name: 'ContactSecry',
+  methods: {
+    navigateToAppStore () {
+      //  TODO, navigate to appstore
+      print('asdf')
+    },
+    navigateToPlayStore () {
+      //  TODO, navigate to playstore
+      print('asdf')
+    }
+  }
 }
 </script>

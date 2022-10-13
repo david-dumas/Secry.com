@@ -3,6 +3,7 @@
     <nuxt-link
       v-for="locale in availableLocales"
       :key="locale.code"
+      :alt="$t('alt_text.language_switch_link')"
       class="-mt-1"
       :to="switchLocalePath(locale.code)"
     >

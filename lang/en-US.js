@@ -60,5 +60,16 @@ export default {
     terms: 'Terms and Conditions',
     privacy: 'Privacy',
     cookies: 'Cookies'
+  },
+  alt_text: {
+    application_user_image: 'Avatar from a Secry user',
+    secry_logo_image: 'Secry logo',
+    link_to_app_store_image: 'Link to the App Store',
+    link_to_play_store_image: 'Link to the Play Store',
+    add_group_image: 'Adding a group, image',
+    review_from_user_image: 'Avatar from a Secry reviewer',
+    add_survey_image: 'Adding a survey, image',
+    group_chat_image: 'Secry groupchat, image',
+    language_switch_link: 'Language switcher'
   }
 }

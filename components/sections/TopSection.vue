@@ -5,15 +5,16 @@
       <p>{{ $t('topSection.description') }}</p>
       <div class="flex flex-row w-1/3 md:w-full gap-8">
         <button @click="navigateToAppStore">
-          <img src="/images/appstore.png">
+          <img :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
         </button>
         <button @click="navigateToAppStore">
-          <img src="/images/googleplay.png">
+          <img :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
         </button>
       </div>
     </div>
     <div class="lg:px-16 col-span-1 lg:col-span-2 flex items-center justify-center">
       <nuxt-img
+        :alt="$t('alt_text.group_chat_image')"
         :src="`/images/${getLocale}/groupchat.png`"
       />
     </div>
@@ -26,15 +27,11 @@ export default {
   methods: {
     navigateToAppStore () {
       //  TODO, navigate to appstore
+      print('asdf')
     },
     navigateToPlayStore () {
       //  TODO, navigate to playstore
-    }
-  },
-  nuxtI18n: {
-    paths: {
-      en: '/home',
-      nl: '/start'
+      print('asdf')
     }
   }
 }

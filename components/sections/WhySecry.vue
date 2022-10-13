@@ -31,6 +31,7 @@
     </div>
     <div class="col-span-1 md:col-span-1 flex items-center justify-center">
       <nuxt-img
+        :alt="$t('alt_text.add_survey_image')"
         :src="`/images/${getLocale}/addsurvey.png`"
       />
     </div>
