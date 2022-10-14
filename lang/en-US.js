@@ -5,6 +5,7 @@ export default {
     howItWorks: 'How it works',
     why_us: 'Why us',
     ratingsAndReviews: 'Ratings & reviews',
+    anonymousWithAvatars: 'Anonymous with avatars',
     contact: 'Contact'
   },
   topSection: {
@@ -71,5 +72,13 @@ export default {
     add_survey_image: 'Adding a survey, image',
     group_chat_image: 'Secry groupchat, image',
     language_switch_link: 'Language switcher'
+  },
+  links: {
+    home: 'home',
+    howItWorks: 'how_it_works',
+    why_us: 'why_us',
+    ratingsAndReviews: 'ratings_and_reviews',
+    anonymousWithAvatars: 'Anonymous with avatars',
+    contact: 'contact'
   }
 }

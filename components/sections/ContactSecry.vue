@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="grid grid-cols-1 gap-16 md:grid-cols-2 pt-0">
+  <section :id="$t('links.contact')" class="grid grid-cols-1 gap-16 md:grid-cols-2 pt-0">
     <div class="flex flex-col items-center md:items-start gap-4 md:gap-8">
       <h2 class="text-primary">
         {{ $t('contact.title' ) }}
@@ -27,10 +27,10 @@
       </p>
       <div class="flex flex-col md:flex-row items-center justify-center w-1/2 gap-8">
         <button>
-          <img :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
+          <img format="webp" :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
         </button>
         <button>
-          <img :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
+          <img format="webp" :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
         </button>
       </div>
     </div>

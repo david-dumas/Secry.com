@@ -1,17 +1,11 @@
 export default {
   welcome: 'Welkom',
-  exports: {
-    home_anchor: 'Start',
-    how_it_works_anchor: 'Hoe het werkt',
-    why_us_anchor: 'Waarom ons',
-    ratings_and_reviews_anchor: 'Beoordelingen en recensies',
-    contact_anchor: 'Contact'
-  },
   navigation: {
     home: 'Start',
     howItWorks: 'Hoe het werkt',
     why_us: 'Waarom ons',
     ratingsAndReviews: 'Beoordelingen en recensies',
+    anonymousWithAvatars: 'Anoniem met avatars',
     contact: 'Contact'
   },
   topSection: {
@@ -78,5 +72,13 @@ export default {
     add_survey_image: 'Afbeelding van een vragenlijst toevoegen',
     group_chat_image: 'Afbeelding van een Secry groepschat',
     language_switch_link: 'Taal veranderen'
+  },
+  links: {
+    home: 'home',
+    howItWorks: 'hoe_het_werkt',
+    why_us: 'waarom_wij',
+    ratingsAndReviews: 'beoordelingen_en_reviews',
+    anonymousWithAvatars: 'Anoniem met avatars',
+    contact: 'contact'
   }
 }
