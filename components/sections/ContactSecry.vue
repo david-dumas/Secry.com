@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="grid grid-cols-1 gap-16 md:grid-cols-2 pt-0">
+  <section :id="$t('links.contact')" class="grid grid-cols-1 gap-16 md:grid-cols-2 pt-0">
     <div class="flex flex-col items-center md:items-start gap-4 md:gap-8">
       <h2 class="text-primary">
         {{ $t('contact.title' ) }}
@@ -25,9 +25,13 @@
       <p class="text-primary font-bold hidden md:flex">
         Secry @ 2022
       </p>
-      <div class="flex flex-col md:flex-row items-center justify-center w-1/4 gap-8">
-        <nuxt-img src="/images/appstore.png" />
-        <nuxt-img src="/images/googleplay.png" />
+      <div class="flex flex-col md:flex-row items-center justify-center w-1/2 gap-8">
+        <button>
+          <img format="webp" :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
+        </button>
+        <button>
+          <img format="webp" :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
+        </button>
       </div>
     </div>
   </section>
@@ -35,6 +39,16 @@
 
 <script>
 export default {
-  name: 'ContactSecry'
+  name: 'ContactSecry',
+  methods: {
+    navigateToAppStore () {
+      //  TODO, navigate to appstore
+      print('asdf')
+    },
+    navigateToPlayStore () {
+      //  TODO, navigate to playstore
+      print('asdf')
+    }
+  }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <section id="why-us" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 pt-0 gap-16 items-center">
+  <section :id="$t('links.why_us')" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 pt-0 gap-16 items-center">
     <div class="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col gap-8 items-center md:items-start text-center md:text-left">
       <h2 class="text-primary">
         {{ $t('howItWorks.title') }}
@@ -31,6 +31,8 @@
     </div>
     <div class="col-span-1 md:col-span-1 flex items-center justify-center">
       <nuxt-img
+        format="webp"
+        :alt="$t('alt_text.add_survey_image')"
         :src="`/images/${getLocale}/addsurvey.png`"
       />
     </div>

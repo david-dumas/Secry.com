@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-0 text-center md:text-left">
+  <section :id="$t('links.anonymousWithAvatars')" class="pt-0 text-center md:text-left">
     <div class="flex flex-col gap-8">
       <div class="lg:text-left flex flex-col gap-4">
         <h2 class="text-primary">
@@ -13,7 +13,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
-            <nuxt-img src="/images/en/Multiavatar-Ethereum1.png" />
+            <nuxt-img format="webp" :alt="$t('alt_text.application_user_image')" src="/images/en/Multiavatar-Ethereum1.png" />
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">
@@ -27,7 +27,7 @@
 
         <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
-            <nuxt-img src="/images/en/Multiavatar-Huxley1.png" />
+            <nuxt-img format="webp" :alt="$t('alt_text.application_user_image')" src="/images/en/Multiavatar-Huxley1.png" />
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">
@@ -41,7 +41,7 @@
 
         <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
-            <nuxt-img src="/images/en/Multiavatar-Shichiroji-Karatoza1.png" />
+            <nuxt-img format="webp" :alt="$t('alt_text.application_user_image')" src="/images/en/Multiavatar-Shichiroji-Karatoza1.png" />
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">
@@ -55,7 +55,7 @@
 
         <div class="flex flex-col gap-4 items-center md:items-start">
           <div class="w-12 h-12">
-            <nuxt-img src="/images/en/avatar-purple.png" />
+            <nuxt-img format="webp" :alt="$t('alt_text.application_user_image')" src="/images/en/avatar-purple.png" />
           </div>
           <div class="gap-2">
             <p class="text-lg font-medium">

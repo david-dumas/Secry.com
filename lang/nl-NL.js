@@ -1,10 +1,11 @@
 export default {
   welcome: 'Welkom',
   navigation: {
-    home: 'Home',
+    home: 'Start',
     howItWorks: 'Hoe het werkt',
     why_us: 'Waarom ons',
     ratingsAndReviews: 'Beoordelingen en recensies',
+    anonymousWithAvatars: 'Anoniem met avatars',
     contact: 'Contact'
   },
   topSection: {
@@ -60,5 +61,24 @@ export default {
     terms: 'Algemene Voorwaarden',
     privacy: 'Privacy',
     cookies: 'Cookies'
+  },
+  alt_text: {
+    application_user_image: 'Avatar van een Secry gebruiker',
+    secry_logo_image: 'Logo van Secry',
+    link_to_app_store_image: 'Link naar de App Store',
+    link_to_play_store_image: 'Link naar de Play Store',
+    add_group_image: 'Afbeelding van een groep toevoegen',
+    review_from_user_image: 'Avatar van een Secry reviewer',
+    add_survey_image: 'Afbeelding van een vragenlijst toevoegen',
+    group_chat_image: 'Afbeelding van een Secry groepschat',
+    language_switch_link: 'Taal veranderen'
+  },
+  links: {
+    home: 'home',
+    howItWorks: 'hoe_het_werkt',
+    why_us: 'waarom_wij',
+    ratingsAndReviews: 'beoordelingen_en_reviews',
+    anonymousWithAvatars: 'Anoniem met avatars',
+    contact: 'contact'
   }
 }
