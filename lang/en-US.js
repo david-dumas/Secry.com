@@ -3,9 +3,9 @@ export default {
   navigation: {
     home: 'Home',
     howItWorks: 'How it works',
-    why_us: 'Why us',
-    ratingsAndReviews: 'Ratings & reviews',
-    anonymousWithAvatars: 'Anonymous with avatars',
+    whyUs: 'Why us',
+    ratingsAndReviews: 'Ratings',
+    anonymousWithAvatars: 'Anonimity',
     contact: 'Contact'
   },
   topSection: {
@@ -76,7 +76,7 @@ export default {
   links: {
     home: 'home',
     howItWorks: 'how_it_works',
-    why_us: 'why_us',
+    whyUs: 'why_us',
     ratingsAndReviews: 'ratings_and_reviews',
     anonymousWithAvatars: 'Anonymous with avatars',
     contact: 'contact'

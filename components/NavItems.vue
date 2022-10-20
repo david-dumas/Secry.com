@@ -8,11 +8,11 @@
     <nuxt-link :to="`#${$t('links.home')}`" class="hover-primary scrollactive-item">
       {{ $t('navigation.home') }}
     </nuxt-link>
-    <nuxt-link :to="`#${$t('links.how_it_works')}`" class="hover-primary scrollactive-item">
+    <nuxt-link :to="`#${$t('links.howItWorks')}`" class="hover-primary scrollactive-item">
       {{ $t('navigation.howItWorks') }}
     </nuxt-link>
-    <nuxt-link :to="`#${$t('links.why_us')}`" class="hover-primary scrollactive-item">
-      {{ $t('navigation.why_us') }}
+    <nuxt-link :to="`#${$t('links.whyUs')}`" class="hover-primary scrollactive-item">
+      {{ $t('navigation.whyUs') }}
     </nuxt-link>
     <!-- TODO: add nav translation to other links -->
     <nuxt-link :to="`#${$t('links.ratingsAndReviews')}`" class="hover-primary scrollactive-item">

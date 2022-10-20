@@ -3,9 +3,9 @@ export default {
   navigation: {
     home: 'Start',
     howItWorks: 'Hoe het werkt',
-    why_us: 'Waarom ons',
-    ratingsAndReviews: 'Beoordelingen en recensies',
-    anonymousWithAvatars: 'Anoniem met avatars',
+    whyUs: 'Waarom ons',
+    ratingsAndReviews: 'Recensies',
+    anonymousWithAvatars: 'Anonimiteit',
     contact: 'Contact'
   },
   topSection: {
@@ -76,9 +76,9 @@ export default {
   links: {
     home: 'home',
     howItWorks: 'hoe_het_werkt',
-    why_us: 'waarom_wij',
+    whyUs: 'waarom_wij',
     ratingsAndReviews: 'beoordelingen_en_reviews',
-    anonymousWithAvatars: 'Anoniem met avatars',
+    anonymousWithAvatars: 'Anoniem_met_avatars',
     contact: 'contact'
   }
 }
