@@ -45,7 +45,8 @@ export default {
     // nuxtjs icons
     '@nuxtjs/fontawesome',
     // nuxtjs image
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/color-mode'
   ],
 
   // Fontawesome configuration
@@ -64,7 +65,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
   ],
 
   // i18n module configuration https://i18n.nuxtjs.org/`

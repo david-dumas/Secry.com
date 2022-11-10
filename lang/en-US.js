@@ -80,5 +80,9 @@ export default {
     ratingsAndReviews: 'ratings_and_reviews',
     anonymousWithAvatars: 'Anonymous with avatars',
     contact: 'contact'
+  },
+  pop_up_text: {
+    title: 'Available soon!',
+    description: 'The secry app will soon be available on the Appstore and Playstore!'
   }
 }

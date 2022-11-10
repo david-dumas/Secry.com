@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <TopSection />
     <HowItWorks />
     <AnonymousWithAvatars />
@@ -20,6 +20,6 @@ import RatingsAndReviews from '~/components/sections/RatingsAndReviews'
 export default {
   name: 'IndexPage',
   components: { RatingsAndReviews, ContactSecry, AnonymousWithAvatars, WhySecry, HowItWorks, TopSection },
-  scrollToTop: false
+  scrollToTop: false,
 }
 </script>

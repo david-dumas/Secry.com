@@ -80,5 +80,9 @@ export default {
     ratingsAndReviews: 'beoordelingen_en_reviews',
     anonymousWithAvatars: 'Anoniem_met_avatars',
     contact: 'contact'
+  },
+  pop_up_text: {
+    title: 'Binnenkort beschikbaar!',
+    description: 'De secry app zal binnenkort beschikbaar zijn op de App- en Playstore!'
   }
 }

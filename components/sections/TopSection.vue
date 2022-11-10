@@ -4,12 +4,13 @@
       <h1>{{ $t('topSection.title') }}</h1>
       <p>{{ $t('topSection.description') }}</p>
       <div class="flex flex-row w-1/3 md:w-full gap-8">
-        <button @click="navigateToAppStore">
+        <button @click="showModal = true">
           <img format="webp" :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
         </button>
-        <button @click="navigateToAppStore">
+        <button @click="showModal = true">
           <img format="webp" :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
         </button>
+        <SavedModal v-show="showModal" @close-modal="showModal = false" />
       </div>
     </div>
     <div class="lg:px-16 col-span-1 lg:col-span-2 flex items-center justify-center">
@@ -23,16 +24,20 @@
 </template>
 
 <script>
+import SavedModal from '../SavedModal.vue';
 export default {
   name: 'TopSection',
+  components: {
+    SavedModal
+  },
   methods: {
-    navigateToAppStore () {
-      //  TODO, navigate to appstore
-      print('asdf')
-    },
-    navigateToPlayStore () {
-      //  TODO, navigate to playstore
-      print('asdf')
+    showDialog () {
+      console.log('linter zeikt')
+    }
+  },
+  data () {
+    return {
+      showModal: false
     }
   }
 }
