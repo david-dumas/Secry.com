@@ -79,7 +79,10 @@ export default {
     whyUs: 'waarom_wij',
     ratingsAndReviews: 'beoordelingen_en_reviews',
     anonymousWithAvatars: 'Anoniem_met_avatars',
-    contact: 'contact'
+    contact: 'contact',
+    privacy_statement: 'Privacy Statement',
+    terms_and_conditions: 'Algemene Voorwaarden',
+    cookie_statement: 'Cookie Beleid'
   },
   pop_up_text: {
     title: 'Binnenkort beschikbaar!',

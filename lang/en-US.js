@@ -57,10 +57,7 @@ export default {
   footer: {
     title: 'The best anonymous social media app',
     descriptionPart1: 'Copyright ©',
-    descriptionPart2: ' Secry - All Rights Reserved',
-    terms: 'Terms and Conditions',
-    privacy: 'Privacy',
-    cookies: 'Cookies'
+    descriptionPart2: ' Secry - All Rights Reserved'
   },
   alt_text: {
     application_user_image: 'Avatar from a Secry user',
@@ -79,7 +76,10 @@ export default {
     whyUs: 'why_us',
     ratingsAndReviews: 'ratings_and_reviews',
     anonymousWithAvatars: 'Anonymous with avatars',
-    contact: 'contact'
+    contact: 'contact',
+    privacy_statement: 'Privacy Statement',
+    terms_and_conditions: 'Terms and Conditions',
+    cookie_statement: 'Cookie Statement'
   },
   pop_up_text: {
     title: 'Available soon!',

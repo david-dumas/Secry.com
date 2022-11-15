@@ -17,11 +17,17 @@
         {{ $t('footer.descriptionPart1') }}{{ new Date().getFullYear() }}{{ $t('footer.descriptionPart2') }}
       </div>
       <div class="flex flex-row items-center gap-1 text-black">
-        <a href="#" class="text-primary">{{ $t('footer.terms') }}</a>
+        <NuxtLink to="/terms_and_conditions">
+          {{ $t('links.terms_and_conditions') }}
+        </NuxtLink>
         <p>|</p>
-        <a href="#" class="text-primary">{{ $t('footer.privacy') }}</a>
+        <NuxtLink to="/privacy_statement">
+          {{ $t('links.privacy_statement') }}
+        </NuxtLink>
         <p>|</p>
-        <a href="#" class="text-primary">{{ $t('footer.cookies') }}</a>
+        <NuxtLink to="/cookie_statement">
+          {{ $t('links.cookie_statement') }}
+        </NuxtLink>
       </div>
     </div>
   </footer>
