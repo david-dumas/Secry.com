@@ -84,5 +84,9 @@ export default {
   pop_up_text: {
     title: 'Available soon!',
     description: 'The secry app will soon be available on the Appstore and Playstore!'
+  },
+  language: {
+    english: 'English',
+    dutch: 'Dutch'
   }
 }

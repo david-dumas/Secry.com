@@ -46,6 +46,7 @@ export default {
     '@nuxtjs/fontawesome',
     // nuxtjs image
     '@nuxt/image',
+    '@nuxtjs/svg',
     '@nuxtjs/color-mode'
   ],
 
@@ -65,7 +66,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxtjs/i18n',
+    '@nuxtjs/i18n'
   ],
 
   // i18n module configuration https://i18n.nuxtjs.org/`
@@ -112,5 +113,10 @@ export default {
         autoprefixer: {}
       }
     }
+  },
+
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light' // fallback value if not system preference found
   }
 }

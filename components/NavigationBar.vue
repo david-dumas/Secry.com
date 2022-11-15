@@ -10,9 +10,6 @@
       </button>
       <div class="flex flex-row items-center gap-12">
         <NavItems class="hidden lg:flex" />
-        <div class="flex flex-row justify-center items-center">
-          <LanguageSwitch />
-        </div>
         <!--TODO: link to correct social media pages-->
         <SocialMediaIcons class="hidden lg:flex" />
       </div>

@@ -1,16 +1,16 @@
 <template>
-    <transition name="modal-fade">
-      <div class="modal-overlay" @click="$emit('close-modal')">
-        <div class="modal" @click.stop>
-          <h1>{{ $t('pop_up_text.title') }}</h1>
-          <p>{{ $t('pop_up_text.description') }}</p>
-        </div>
-        <div class="close" @click="$emit('close-modal')">
-          <img class="close-img" src="~/assets/css/close-icon.svg" alt="" />
-        </div>
+  <transition name="modal-fade">
+    <div class="modal-overlay" @click="$emit('close-modal')">
+      <div class="modal" @click.stop>
+        <h1>{{ $t('pop_up_text.title') }}</h1>
+        <p>{{ $t('pop_up_text.description') }}</p>
       </div>
-    </transition>
-  </template>
+      <div class="close" @click="$emit('close-modal')">
+        <img class="close-img" src="~/assets/css/icons/close-icon.svg" alt="">
+      </div>
+    </div>
+  </transition>
+</template>
 
 <script>
 export default {}

@@ -44,9 +44,9 @@ section {
   @apply transition duration-200 hover:text-primary;
 }
 
-#nav {
-  background-color: white;
-}
+/* #nav {
+  --bg: #ffffff;
+} */
 
 .active {
   @apply text-primary;
@@ -86,4 +86,8 @@ body {
   background-color: var(--bg);
   color: var(--color);
   transition: background-color 0.3s;
+}
+
+#nav {
+  background-color: var(--bg);
 }

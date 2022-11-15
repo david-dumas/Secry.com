@@ -1,5 +1,5 @@
 <template>
-  <container>
+  <div>
     <scrollactive
       ref="scrollactive"
       active-class="active"
@@ -21,16 +21,29 @@
       <nuxt-link :to="`#${$t('links.contact')}`" class="hover-primary scrollactive-item">
         {{ $t('navigation.contact') }}
       </nuxt-link>
+      <LanguageSwitcher />
+      <select v-model="$colorMode.preference">
+        <option value="system">
+          Color Theme
+        </option>
+        <option value="dark">
+          Dark Mode
+        </option>
+        <option value="light">
+          Light Mode
+        </option>
+        <option value="sepia">
+          Sepia
+        </option>
+      </select>
     </scrollactive>
-    <select v-model="$colorMode.preference">
-      <option value="dark">Dark</option>
-      <option value="light">Light</option>
-      <option value="system">System</option>
-    </select>
-  </container>
+  </div>
 </template>
 <script>
+import LanguageSwitcher from './LanguageSwitcher.vue'
+
 export default {
-  name: 'NavItems'
+  name: 'NavItems',
+  components: { LanguageSwitcher }
 }
 </script>
