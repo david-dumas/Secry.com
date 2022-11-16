@@ -24,16 +24,11 @@
 </template>
 
 <script>
-import SavedModal from '../SavedModal.vue';
+import SavedModal from '../SavedModal.vue'
 export default {
   name: 'TopSection',
   components: {
     SavedModal
-  },
-  methods: {
-    showDialog () {
-      console.log('linter zeikt')
-    }
   },
   data () {
     return {

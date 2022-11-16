@@ -22,28 +22,16 @@
         {{ $t('navigation.contact') }}
       </nuxt-link>
       <LanguageSwitcher />
-      <select v-model="$colorMode.preference">
-        <option value="system">
-          Color Theme
-        </option>
-        <option value="dark">
-          Dark Mode
-        </option>
-        <option value="light">
-          Light Mode
-        </option>
-        <option value="sepia">
-          Sepia
-        </option>
-      </select>
+      <ThemeSwitch />
     </scrollactive>
   </div>
 </template>
 <script>
+import ThemeSwitch from './ThemeSwitch.vue'
 import LanguageSwitcher from './LanguageSwitcher.vue'
 
 export default {
   name: 'NavItems',
-  components: { LanguageSwitcher }
+  components: { LanguageSwitcher, ThemeSwitch }
 }
 </script>
