@@ -45,7 +45,9 @@ export default {
     // nuxtjs icons
     '@nuxtjs/fontawesome',
     // nuxtjs image
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/svg',
+    '@nuxtjs/color-mode'
   ],
 
   // Fontawesome configuration
@@ -111,5 +113,10 @@ export default {
         autoprefixer: {}
       }
     }
+  },
+
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light' // fallback value if not system preference found
   }
 }
