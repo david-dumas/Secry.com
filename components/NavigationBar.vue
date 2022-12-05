@@ -1,12 +1,12 @@
 <template>
   <nav id="nav" class="fixed left-0 right-0 transition duration-200">
-    <div class="py-8 px-4 max-w-7xl mx-auto flex justify-between flex-row items-center">
+    <div class="py-4 px-4 max-w-7xl mx-auto flex justify-between flex-row items-center">
       <!--TODO: insert real picture of our logo-->
       <div class="flex lg:hidden">
         <font-awesome-icon :icon="['fas', 'bars']" class="text-2xl cursor-pointer" @click="toggleNav" />
       </div>
-      <button class="w-13" @click="navigateToTop">
-        <img format="webp" :alt="$t('alt_text.secry_logo_image')" src="/images/en/logo.png">
+      <button @click="navigateToTop">
+        <img class="w-20 h-20" format="webp" :alt="$t('alt_text.secry_logo_image')" src="/images/en/logo.png">
       </button>
       <div class="flex flex-row items-center gap-12">
         <NavItems class="hidden lg:flex" />

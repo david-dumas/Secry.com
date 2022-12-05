@@ -147,7 +147,6 @@ export default {
   transition: all 0.1s ease-in-out;
 }
 
-.dropdown-fade-enter,
 .dropdown-fade-leave-to {
   opacity: 0;
   transform: translateY(-12px);
