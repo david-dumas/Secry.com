@@ -20,6 +20,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "autoprefixer": "^10.4.9",
     "core-js": "^3.19.3",
+    "ipx": "^1.0.0-2",
     "nuxt": "^2.15.8",
     "vue": "^2.7.14",
     "vue-clickaway": "^2.2.2",
