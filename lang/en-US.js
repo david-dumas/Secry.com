@@ -47,7 +47,7 @@ export default {
   ratingsAndReviews: {
     ratingOne: 'This seems like a fantastic way to be more aware of each other\'s concerns and thus create more connection. I definitely see this as a platform with a lot of potential.',
     ratingTwo: 'The most criticism that social media is getting now is that it is "fake" and that many users become insecure when seeing/reading certain posts. Secry, on the other hand, will really be the opposite; the idea is precisely to be very "real".',
-    ratingThree: 'The most criticism that social media is getting now is that it is "fake" and that many users become insecure when seeing/reading certain posts. Secry, on the other hand, will really be the opposite; the idea is precisely to be very "real".'
+    ratingThree: 'The first thing that came to mind was: Yes! That\'s a super good idea. It is precisely the anonymity that often causes problems, because it only goes one way. Here it goes both ways..'
   },
   contact: {
     title: 'Ask us anything',

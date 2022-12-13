@@ -5,6 +5,7 @@
       <div class="flex lg:hidden">
         <font-awesome-icon :icon="['fas', 'bars']" class="text-2xl cursor-pointer" @click="toggleNav" />
       </div>
+      <!-- go to home -->
       <button @click="navigateToTop">
         <img class="w-20 h-20" format="webp" :alt="$t('alt_text.secry_logo_image')" src="/images/en/logo.png">
       </button>

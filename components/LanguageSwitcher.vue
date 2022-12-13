@@ -12,8 +12,9 @@
       @keydown.up.exact.prevent="startArrowKeys"
       @keydown.down.exact.prevent="startArrowKeys"
     >
-      <!-- <country-flag :country="locale.country" /> -->
-      <span class="ml-2">{{ $i18n.locale.toUpperCase() }}</span>
+      <span class="ml-2">
+        <country-flag :country="locale.country" />
+      </span>
 
       <svg
         fill="currentColor"
@@ -111,7 +112,6 @@ export default {
     },
     startArrowKeys () {
       if (this.isVisible) {
-        // this.$refs.account.focus()
         this.$refs.dropdown.children[0].children[0].focus()
       }
     },
@@ -142,13 +142,11 @@ export default {
 </script>
 
 <style scoped>
-.dropdown-fade-enter-active,
-.dropdown-fade-leave-active {
-  transition: all 0.1s ease-in-out;
-}
-
-.dropdown-fade-leave-to {
-  opacity: 0;
-  transform: translateY(-12px);
-}
+ .dropdown-fade-enter-active, .dropdown-fade-leave-active {
+    transition: all .1s ease-in-out;
+  }
+  .dropdown-fade-enter, .dropdown-fade-leave-to {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
 </style>
