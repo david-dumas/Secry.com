@@ -26,28 +26,28 @@
         Secry @ 2022
       </p>
       <div class="flex flex-col md:flex-row items-center justify-center w-1/2 gap-8">
-        <button>
-          <img format="webp" :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
-        </button>
-        <button>
-          <img format="webp" :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
-        </button>
+        <div class="flex flex-row w-1/3 md:w-full gap-8">
+          <button @click="showModal = true">
+            <img format="webp" :alt="$t('alt_text.link_to_app_store_image')" src="/images/appstore.png">
+          </button>
+          <button @click="showModal = true">
+            <img format="webp" :alt="$t('alt_text.link_to_play_store_image')" src="/images/googleplay.png">
+          </button>
+          <SavedModal v-show="showModal" @close-modal="showModal = false" />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import SavedModal from '../SavedModal.vue'
 export default {
   name: 'ContactSecry',
-  methods: {
-    navigateToAppStore () {
-      //  TODO, navigate to appstore
-      print('asdf')
-    },
-    navigateToPlayStore () {
-      //  TODO, navigate to playstore
-      print('asdf')
+  components: { SavedModal },
+  data () {
+    return {
+      showModal: false
     }
   }
 }

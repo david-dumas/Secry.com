@@ -6,14 +6,17 @@
         <p>{{ $t('pop_up_text.description') }}</p>
       </div>
       <div class="close" @click="$emit('close-modal')">
-        <img class="close-img" src="~/assets/css/icons/close-icon.svg" alt="">
+        <img class="close-img" src="~/assets/icons/close-icon.svg" alt="">
       </div>
     </div>
   </transition>
 </template>
 
 <script>
-export default {}
+
+export default {
+  name: 'SavedModal'
+}
 </script>
 
   <style scoped>
@@ -37,11 +40,11 @@ export default {}
     border-radius: 20px;
   }
   .close {
-    margin: 10% 0 0 16px;
+    margin: 10% 0 -20px -30px;
     cursor: pointer;
   }
   .close-img {
-    width: 25px;
+    width: 30px;
   }
   .check {
     width: 150px;
@@ -52,7 +55,6 @@ export default {}
     margin: 20px 0;
   }
   p {
-    /* font-weight: 500; */
     font-size: 16px;
     margin: 20px 0;
   }
