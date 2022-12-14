@@ -51,6 +51,9 @@
           py-1
           lg:z-20
         "
+        :style="{
+          backgroundColor: `var(--bg)`
+        }"
       >
         <li>
           <nuxt-link
