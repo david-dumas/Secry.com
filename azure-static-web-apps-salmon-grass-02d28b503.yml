@@ -23,6 +23,10 @@ jobs:
 
   - task : CmdLine@2
     inputs:
+     script: npm install sharp
+
+  - task : CmdLine@2
+    inputs:
      script: export NODE_OPTIONS=--openssl-legacy-provider
 
   - task: AzureStaticWebApp@0
